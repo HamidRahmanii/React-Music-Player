@@ -1,0 +1,160 @@
+.library {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    height: 100%;
+    background-color: lightcyan;
+    box-shadow: 2px 2px 50px gray;
+    overflow: scroll;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    z-index: 2;
+
+    h2 {
+        padding: 2rem;
+    }
+
+}
+
+.library-song {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;
+    transition: background 0.5s ease;
+
+    img {
+        transition: all 0.5s ease;
+        width: 25%;
+        border-radius: 10px;
+    }
+
+    &:hover {
+        background-color: darkseagreen;
+    }
+}
+
+.song-description {
+    padding-left: 1rem;
+
+
+    h3 {
+        color: black;
+        font-size: 1rem;
+        padding-bottom: 0.3rem;
+    }
+
+    h4 {
+        color: rgb(50, 50, 50);
+        font-size: 0.75rem;
+        padding-top: 0.3rem;
+    }
+}
+
+.selected {
+    background-color: darkslategrey;
+
+    h3 {
+        color: lightcyan;
+        font-size: 1.2rem;
+        padding-bottom: 0.3rem;
+    }
+
+    h4 {
+        color: lightcyan;
+        font-size: 0.9rem;
+        padding-top: 0.3rem;
+    }
+
+
+}
+
+.song-playing {
+
+    img {
+        margin-left: 1rem;
+        width: 40%;
+        // border-radius: 50%;
+    }
+}
+
+
+.active-library {
+    transform: translateX(0%);
+    transition: all 0.5s ease;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(150, 150, 150, 0.5) transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(150, 150, 150, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
+
+
+.library-active {
+    margin-left: 25vw;
+}
+
+@media screen and (max-width:1280px) {
+    .library-active {
+        margin-left: 30vw;
+    }
+
+    .library {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .library-active {
+        margin-left: 35vw;
+    }
+
+    .library {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .library {
+        width: 100%;
+
+        h2 {
+            opacity: 0;
+        }
+    }
+
+    .logo {
+        opacity: 0;
+    }
+
+    .library-song {
+        img {
+            width: 20%;
+            border-radius: 10px;
+        }
+    }
+
+    .song-playing {
+
+        img {
+            margin-left: 3rem;
+            width: 25%;
+        }
+    }
+
+}

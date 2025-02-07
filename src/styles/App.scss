@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: rgb(50, 50, 50)
+}
+
+html,
+button {
+
+    font-family: "Sansita",
+        serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.app {
+    height: 100vh;
+}
+
+
+h3,
+h4 {
+    font-weight: 400;
+    color: gray
+}
+
+.App {
+    transition: all 0.5s ease;
+}
+
+
+
+
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
+@import "./lyrics";

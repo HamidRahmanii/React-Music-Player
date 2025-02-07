@@ -1,0 +1,44 @@
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .logo {
+        color: white;
+        z-index: 10;
+    }
+
+    button {
+        background: transparent;
+        cursor: pointer;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 0.5rem;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 16px;
+
+        &:hover {
+            background-color: white;
+            color: black;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        button {
+            z-index: 10;
+            border: 2px solid black;
+            color: black;
+
+            &:hover {
+                background-color: black;
+                color: white;
+                box-shadow: black 0px 3px 6px 0px, black 0px 3px 20px 0px;
+
+            }
+        }
+    }
+}
