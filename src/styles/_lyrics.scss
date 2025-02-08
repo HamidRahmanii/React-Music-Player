@@ -25,7 +25,12 @@
     width: 17.5vw;
     height: 15.5vw;
     font-size: 16px;
-    overflow-y: auto;
+    overflow-y: hidden;
+
+    &:hover {
+        overflow-y: auto;
+    }
+
     // scrollbar-width: none;
     // /* مخفی کردن اسکرول در فایرفاکس */
     // -ms-overflow-style: none;
