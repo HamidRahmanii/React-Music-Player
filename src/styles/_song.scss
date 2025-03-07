@@ -55,18 +55,17 @@
         .delete-circle {
             opacity: 0;
         }
-
-
     }
 
     .play-image {
         width: 100%;
         height: 100%;
-        // border-radius: 50%;
         animation: rotate 8s linear infinite;
     }
 
-
+    h1 {
+        font-size: 2rem;
+    }
 
     h3 {
         font-size: 1rem;
@@ -108,8 +107,8 @@ button {
         }
 
         .image {
-            width: calc(30vw + 0px);
-            height: calc(30vw + 0px);
+            width: calc(28vw + 0px);
+            height: calc(28vw + 0px);
         }
     }
 }
@@ -123,8 +122,16 @@ button {
         }
 
         .image {
-            width: calc(40vw - 0px);
-            height: calc(40vw - 0px);
+            width: calc(36vw - 0px);
+            height: calc(36vw - 0px);
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1rem;
         }
     }
 }
@@ -142,8 +149,16 @@ button {
         }
 
         .image {
-            width: calc(50vw - 0px);
-            height: calc(50vw - 0px);
+            width: calc(45vw - 0px);
+            height: calc(45vw - 0px);
+        }
+
+        h1 {
+            font-size: 1.3rem;
+        }
+
+        h3 {
+            font-size: 0.9rem;
         }
     }
 
@@ -166,6 +181,14 @@ button {
         .image {
             width: calc(55vw - 0px);
             height: calc(55vw - 0px);
+        }
+
+        h1 {
+            font-size: 1rem;
+        }
+
+        h3 {
+            font-size: 0.8rem;
         }
     }
 }

@@ -536,7 +536,7 @@ Oh-ah
 You can use that magic touch
 Oh-oh, ah-ah
 You can use that magic touch`,
-      color: ["#CA040A", "#0220B0"],
+      color: ["#0220B0", "#CA040A"],
       id: uuidv4(),
       active: false,
     },

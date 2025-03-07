@@ -7,6 +7,7 @@ const Nav = ({ libraryStatus, setLibraryStatus, colors }) => {
       <h1 className="logo" style={{ color: `${colors[2]}` }}>
         Apple Music
       </h1>
+      <p>Made with ♥️ by Hamid Rahmani</p>
       <button onClick={() => setLibraryStatus(!libraryStatus)}>
         <span>Library</span> <FaMusic size={12} />
       </button>

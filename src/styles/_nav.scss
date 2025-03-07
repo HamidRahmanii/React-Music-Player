@@ -4,9 +4,13 @@ nav {
     justify-content: space-around;
     align-items: center;
 
+    h1 {
+        font-size: 18px;
+    }
+
     .logo {
-        color: white;
         z-index: 10;
+        width: 100px;
     }
 
     button {
@@ -18,6 +22,7 @@ nav {
         transition: all 0.3s ease;
         color: white;
         font-size: 16px;
+        width: 100px;
 
         &:hover {
             background-color: white;
