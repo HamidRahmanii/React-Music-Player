@@ -8,6 +8,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { playAudio } from "../util";
 
+import "../styles/_player.scss";
+
 const Player = ({
   audioRef,
   currentSong,

@@ -1,6 +1,8 @@
 import React from "react";
 import { playAudio } from "../util";
 
+import "../styles/_library.scss";
+
 const LibrarySong = ({
   song,
   songs,

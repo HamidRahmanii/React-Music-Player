@@ -2,6 +2,8 @@ import React from "react";
 import { ColorExtractor } from "react-color-extractor";
 import { MdLyrics } from "react-icons/md";
 
+import "../styles/_song.scss";
+
 //Import Lyrics
 import Lyrics from "./Lyrics";
 
