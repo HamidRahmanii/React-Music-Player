@@ -3,6 +3,35 @@ import { v4 as uuidv4 } from "uuid";
 function appleMusic() {
   return [
     {
+      name: "How To Go To Confession",
+      cover:
+        "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9e/61/42/9e614222-1394-3777-2975-d4ac38ffad19/20UMGIM89399.rgb.jpg/1200x1200bb-60.jpg",
+      artist: "Sabrina Carpenter",
+      audio:
+        "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/90/7e/f4/907ef4c6-e705-5815-6c27-8e9a30c397a2/mzaf_3470920254500709381.plus.aac.ep.m4a",
+      lyrics: `Pull me out before I'm gone
+But please don't let me fall
+Fall asleep, but not for long
+Your dreams are in your hands
+Handle them gracefully
+But don't let them sift like sand
+Sing of love and sing of none
+Remember when you are through
+I'll be here to sing along
+My heart will be with you
+Moments are fleeting
+Each end is a greeting
+To what lies ahead
+So get up from your bed
+Keep your eyes off the clock
+Time's spent better with them locked in mine
+Oh, I tell you that it's true
+Every second is a treasure with you`,
+      color: ["#4A959D", "#BD8A49"],
+      id: uuidv4(),
+      active: true,
+    },
+    {
       name: "Arcade",
       cover:
         "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c5/40/9e/c5409e27-3f5d-9476-241d-ed8e7499ea38/19UMGIM20677.rgb.jpg/1200x1200bb-60.jpg",
@@ -31,7 +60,7 @@ Loving you is a losing game
 I don't need your games, game over`,
       color: ["#4972A6", "#081528"],
       id: uuidv4(),
-      active: true,
+      active: false,
     },
     {
       name: "Let Me Love You (feat. Justin Bieber)",
